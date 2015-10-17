@@ -9,11 +9,11 @@ PATH="$PATH:"
 export PATH
 export PS1='\W > '
 
-if [ -f ~/.git-completion.bash]; then
+if [ -f ~/.git-completion.bash ]; then
   source ~/.git-completion.bash
 fi
 
-if [ -f ~/.git-prompt.bash]; then
-  source ~/.git-prompt.bash
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
   export PS1='\W$(__git_ps1) > '
 fi

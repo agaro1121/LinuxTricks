@@ -18,5 +18,6 @@ echo "fi" >> ~/.bashrc
 git config --global color.ui true
 git config --global core.editor nano
 git config --global --bool bash.showDirtyState true
+git config --global --bool bash.showUntrackedFiles true
 git config --global user.name "Anthony Garo"
 git config --global user.email "agaro1121@gmail.com"
