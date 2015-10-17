@@ -21,3 +21,4 @@ git config --global --bool bash.showDirtyState true
 git config --global --bool bash.showUntrackedFiles true
 git config --global user.name "Anthony Garo"
 git config --global user.email "agaro1121@gmail.com"
+git config --global credential.helper osxkeychain
