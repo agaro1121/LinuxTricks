@@ -467,7 +467,6 @@ __git_ps1 ()
 	local p=""
 	local GIT_PS1_SHOWDIRTYSTATE="something"
 	local GIT_PS1_SHOWUNTRACKEDFILES="something"
-	local GIT_PS1_SHOWSTASHSTATE="something"
 
 	if [ "true" = "$inside_gitdir" ]; then
 		if [ "true" = "$bare_repo" ]; then
