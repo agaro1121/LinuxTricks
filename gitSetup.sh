@@ -4,7 +4,7 @@ curl -L https://github.com/git/git/raw/master/contrib/completion/git-completion.
 curl -L https://raw.githubusercontent.com/agaro1121/LinuxTricks/master/.git-prompt.sh > ~/.git-prompt.sh
 
 sudo apt-get update && sudo apt-get install -y libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
-cd /dev/lib/git
+cd /dev/git/git
 make prefix=/usr/local all
 sudo make prefix=/usr/local install
 
