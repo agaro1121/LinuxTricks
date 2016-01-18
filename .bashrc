@@ -25,6 +25,8 @@ PATH=$PATH:$SBT_HOME
 
 PATH=$PATH:/home/hierro/bin
 
+PATH=$PATH:/usr/local/bin
+
 
 PATH="$PATH:"
 export PATH
