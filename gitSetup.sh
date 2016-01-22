@@ -15,3 +15,8 @@ git config --global --bool bash.showUntrackedFiles true
 git config --global user.name "Anthony Garo"
 git config --global user.email "agaro1121@gmail.com"
 git config --global credential.helper osxkeychain
+
+git config --global alias.s status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.unstage 'reset HEAD'

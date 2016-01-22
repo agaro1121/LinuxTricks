@@ -1,8 +1,17 @@
-alias ll="ls -alHF"
+alias ll="ls -SalHF"
 alias x="exit"
 alias c="clear"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES ; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO ; killall Finder /System/Library/CoreServices/Finder.app'
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias get='git clone '
+
+
 
 HISTFILESIZE=10000
 HISTSIZE=10000
