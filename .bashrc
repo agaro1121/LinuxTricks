@@ -3,13 +3,9 @@ alias x="exit"
 alias c="clear"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES ; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO ; killall Finder /System/Library/CoreServices/Finder.app'
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout '
-alias get='git clone '
+alias x="exit"
+alias c="clear"
+alias sub="sublime_text"
 
 
 
@@ -35,6 +31,9 @@ PATH=$PATH:$SBT_HOME
 PATH=$PATH:/home/hierro/bin
 
 PATH=$PATH:/usr/local/bin
+
+PATH=$PATH:/home/hierro/dev/apps/sublime_text_3
+PATH=$PATH:/home/hierro/dev/lib/activator-dist-1.3.7
 
 
 PATH="$PATH:"
