@@ -3,7 +3,7 @@
 # the folder to move completed downloads to
 
 # port, username, password
-SERVER="localhost:9091 --auth hierro:882111"
+SERVER="localhost:9091 --auth user:pass"
 
 # use transmission-remote to get torrent list from transmission-remote list
 # use sed to delete first / last line of output, and remove leading spaces
