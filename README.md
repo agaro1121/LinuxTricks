@@ -1,6 +1,6 @@
 # LinuxTricks
 
-https://help.github.com/articles/caching-your-github-password-in-git/
+[Cache Git Passwords](https://help.github.com/articles/caching-your-github-password-in-git/)
 ```shell
 [mergetool "p4merge"]
   cmd = /Applications/p4merge.app/Contents/MacOS/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
