@@ -1,11 +1,9 @@
-alias ll="ls -SalHF"
+alias ll="ls -GFlaSH"
 alias x="exit"
 alias c="clear"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES ; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO ; killall Finder /System/Library/CoreServices/Finder.app'
-alias x="exit"
-alias c="clear"
-alias sub="sublime_text"
+
 
 
 
