@@ -1,0 +1,25 @@
+[color]
+	ui = true
+[core]
+	editor = nano
+	excludesfile = /Users/Hierro/.gitignore_global
+[user]
+	name = Anthony Garo
+	email = agaro1121@gmail.com
+[bash]
+	showDirtyState = true
+	showUntrackedFiles = true
+[credential]
+	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	s = status
+	co = checkout
+	br = branch
+	unstage = reset HEAD
+	ci = commit
