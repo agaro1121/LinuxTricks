@@ -11,7 +11,6 @@ alias gs="clear && git status"
 alias gd="git diff"
 alias gpo="git push -u origin "
 alias updateBlog='cd /Users/Hierro/dev/git/agaro1121.github.io && ls -A | grep -vx .git | xargs rm -rf && rm -rf /Users/Hierro/dev/git/agaro1121.github.io.raw && get git@github.com:agaro1121/agaro1121.github.io.git /Users/Hierro/dev/git/agaro1121.github.io.raw &&cd /Users/Hierro/dev/git/agaro1121.github.io.raw && gp && bundle exec jekyll build && cp -r _site/* /Users/Hierro/dev/git/agaro1121.github.io/ && cd /Users/Hierro/dev/git/agaro1121.github.io && touch .nojekyll && git add . && git commit -am "converts to flat HTML" && git push origin master'
-alias hbc='sudo openconnect --user=anthonygaro --authgroup="General Access" connect.saksinc.com'
 
 HISTFILESIZE=10000
 HISTSIZE=10000
