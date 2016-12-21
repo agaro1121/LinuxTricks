@@ -24,6 +24,6 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.unstage 'reset HEAD'
 
-git config pager.log 'diff-highlight | less'
-git config pager.show 'diff-highlight | less'
-git config pager.diff 'diff-highlight | less'
+git config --global pager.log 'diff-highlight | less'
+git config --global pager.show 'diff-highlight | less'
+git config --global pager.diff 'diff-highlight | less'
